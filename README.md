@@ -10,7 +10,7 @@ See [here](https://zero-to-nix.com/start/install)
 curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
 ```
 
-## Initialize Home-manager (with flake)
+## Initialize home-manager (with flake)
 
 Set `home.username` and `home.homeDirectory` in `home.nix` according to your username & home-directory
 in the current system.
@@ -33,7 +33,7 @@ home-manager switch --option substitute false
 
 More info is [here](https://nix-community.github.io/home-manager/index.xhtml#sec-flakes-standalone).
 
-## Update Home-Manager packages
+## Update home-manager packages
 
 ```bash
 nix flake update
