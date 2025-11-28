@@ -1,3 +1,10 @@
+## Requirement
+
+GCC for LazyVim treesitter:
+```bash
+sudo apt install gcc
+```
+
 ## Clone
 
 Clone it into the `$HOME/.config/home-manager`.
@@ -16,8 +23,15 @@ curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix 
 
 ## Initialize home-manager (with flake)
 
-Set `home.username` and `home.homeDirectory` in `home.nix` according to your username & home-directory
-in the current system.
+Set `home.username` and `home.homeDirectory` in `home.nix` according to your username & home-directory in the current system and replace `mohsen` in `homeConfigurations."mohsen"` in `flake.nix` with your username. 
+
+Then run (For nixpkgs-25.05 otherwize replace it with the version you are using in flake):
+
+```bash
+nix run home-manager/release-25.05 -- switch
+```
+
+It's for latest (unstable) version:
 
 ```bash
 nix run home-manager/master -- switch
