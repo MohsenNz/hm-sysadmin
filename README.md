@@ -2,6 +2,10 @@
 
 Clone it into the `$HOME/.config/home-manager`.
 
+```bash
+git clone https://github.com/MohsenNz/hm-sysadmin.git $HOME/.config/home-manager
+```
+
 ## Install Nix
 
 See [here](https://zero-to-nix.com/start/install)
