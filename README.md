@@ -1,4 +1,4 @@
-## Step 0: Clone
+## Clone
 
 Clone it into the `$HOME/.config/home-manager`.
 
