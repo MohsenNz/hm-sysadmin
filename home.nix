@@ -24,8 +24,8 @@
     lazygit
     lazydocker
     joshuto # terminal file manager
-    # dua # disk usage analyzer, usage: `dua i`
-    atac # tui alt of postman
+    dua # disk usage analyzer, usage: `dua i`
+    # atac # tui alt of postman
     taplo # toml toolkit (validator, formatter)
     # gobang # TUI database management tool
 
