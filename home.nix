@@ -28,6 +28,7 @@
     # atac # tui alt of postman
     taplo # toml toolkit (validator, formatter)
     # gobang # TUI database management tool
+    jq
 
     # Bash ls
     bash-language-server
